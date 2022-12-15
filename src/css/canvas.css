@@ -1,0 +1,10 @@
+body {
+  position: relative;
+}
+
+#webgl {
+  z-index: -1;
+  left: 0;
+  position: fixed;
+  top: 0;
+}

@@ -1,18 +1,10 @@
+import "../css/loading.scss";
+
 import "../css/style.css";
+import "../css/canvas.css";
 
-console.clear();
-console.log(`
-    ███████╗░██████╗░██╗░░░██╗██╗███╗░░██╗░█████╗░██╗░░██╗
-    ██╔════╝██╔═══██╗██║░░░██║██║████╗░██║██╔══██╗╚██╗██╔╝
-    █████╗░░██║██╗██║██║░░░██║██║██╔██╗██║██║░░██║░╚███╔╝░
-    ██╔══╝░░╚██████╔╝██║░░░██║██║██║╚████║██║░░██║░██╔██╗░
-    ███████╗░╚═██╔═╝░╚██████╔╝██║██║░╚███║╚█████╔╝██╔╝╚██╗
-    ╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝╚═╝░░╚══╝░╚════╝░╚═╝░░╚═╝
-                                Hand Crafted 2023
+import __init__ from "./init.js";
 
-    Follow us:
-        - Instagram : https://www.instagram.com/equinoxiiitl/
-        - Twitter   : https://twitter.com/equinoxiiitl
-        - Discord   : https://discord.com/invite/PytHHH8yxN
-        - LinkedIn  : https://www.linkedin.com/company/equinox-iiitl/
-`);
+document.addEventListener("DOMContentLoaded", () => {
+  __init__();
+});
