@@ -1,5 +1,3 @@
-import "../css/loading.scss";
-
 import "../css/style.css";
 import "../css/canvas.css";
 
